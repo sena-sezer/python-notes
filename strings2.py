@@ -34,4 +34,10 @@ print(parrot[-4:-2]) # you cannot go to backwards from the starting position
 print(parrot[-4:12]) #Bl
 print(parrot[-14:8])
 # step in slice
+#parrot = "Norwegian Blue"
+#          012345678901234
+print(parrot[0:6:2]) #Nre the slice starts at index position 0, it extends up but not including to 6, we step through the sequence in steps of 2.
+print(parrot[0:6:3]) #Nw obj[start:stop:step]
 
+number = "9,223,373,036,854,775,807"
+print(number[::]) 
